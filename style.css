@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+}
+.top-background{
+    background-image: url("lights.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.menu{
+    text-align: center;
+    font-size: 18px;
+}
+.menu-ul{
+    padding: 10px;
+}
+.menu-ul li{
+    display:inline-block;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+    padding: 10px 30px;
+    
+
+}
+a{
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border-bottom: solid white;
+}
+.sticky{
+    background:#0f4c75;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.sticky ul{
+    padding: 0;
+    margin: 10px;
+}
+.page-title{
+    text-align: center;
+    font-size: 50px;
+    padding: 200px;
+    color: white;
+    letter-spacing: 10px;
+    text-shadow: 0 0 5px #0f4c75;
+
+}
+.Description, .title{
+    font-size: 20px;
+    font-variant: small-caps;
+    margin: 20px;
+}
+.page-blocks{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+.title{
+    letter-spacing: 10px;
+    color:#0f4c75;
+}
+.design img{
+    height:35%;
+    max-width:95%;
+    margin: 15px;
+}
+.more-design-btn{
+    background:transparent;
+    border:2px solid #0f4c75;
+    color:#0f4c75;
+    font-weight: 300;
+    padding: 10px;
+    margin: 10px;
+    letter-spacing: 2px;
+
+}
+.more-designs-btn:hover{
+    background:#0f4c75;
+    color: white;
+    transition: all 0.5s;
+
+}
+.flex-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.why-us-flex-item{
+    background: #0f4c75;
+    color: white;
+    width: 20%;
+    padding: 40px;
+    margin: 20px;
+
+}
+.block-label{
+    font-variant: small-caps;
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.block-description{
+    text-align: justify;
+}
+.block-number{
+    font-weight: bold;
+    font-size:50px;
+    padding: 20px;
+}
+.Appointment-flex-item{
+    background:#0f4c75;
+    color: white;
+    height: 450;
+    padding: 0px;
+    margin: 20px 0px;
+    overflow: hidden;
+
+}
+.Appointment-img{
+    background-image: url("Appointment.jpg");
+}
+.Appointment-text{
+    padding: 200px 20px;
+    font-size:50px;
+    background: rgba(0, 0,0,0.5);;
+}
+.Appointment-form{
+    padding: 20px;
+}
+.Appointment-form input, textarea{
+    width:60%;
+    max-width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    outline: none;
+    text-align: center;
+    color: #0f4c75;
+    font-size:16px;
+}
+.Appointment-form textarea{
+    height: 100px;
+    max-height: 100px;
+    max-width: 60%;
+    overflow-y: scroll;
+}
+.Appointment-btn{
+    border:2px solid white;
+    background: transparent;
+    color: white;
+    padding: 15px;
+    outline: none;
+}
+.Appointment-btn:hover{
+    background: white;
+    color: #0f4c75;
+}
+
